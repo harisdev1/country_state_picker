@@ -1,16 +1,29 @@
-# cs_picker
+# Flutter Country and State Picker
 
-A new Flutter project.
+A versatile country and state picker for Flutter mobile apps. Simplify the process of selecting countries and their respective states with an intuitive user interface.
 
-## Getting Started
+![Demo](demo.gif)
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Country Picker:** Quickly select a country from a searchable list.
+- **State Picker:** Choose a state within the selected country, also with a search feature.
+- **Custom Dialogs:** Elegant and customizable dialogs for a seamless user experience.
+- **Case-Insensitive Search:** Find countries and states regardless of case.
+- **Flexible Integration:** Easily integrate this picker into your Flutter apps.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To integrate this country and state picker into your Flutter project, follow these steps:
+
+1. **Load Data:** Load the country and state data from your JSON source.
+
+2. **Pick a Country:** Open the country picker dialog to select a country.
+
+3. **Pick a State:** If a country is selected, open the state picker dialog to choose a state within the selected country.
+
+4. **Automatic Validation:** If the user attempts to select a state without choosing a country first, an error dialog prompts them to select a country.
+
+## Usage
+
+
